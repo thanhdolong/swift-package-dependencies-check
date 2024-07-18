@@ -1,5 +1,5 @@
 # Update the base image to Swift 6.0 if available
-FROM swift:5.9
+FROM swift:nightly-6.0
 
 # Repository and branch for release notes
 ARG SWIFT_RELEASENOTES_REPOSITORY="https://github.com/SwiftPackageIndex/ReleaseNotes.git"
