@@ -24,6 +24,7 @@ jobs:
       with:
         commit-message: ${{ inputs.commit-message }}
         branch: updatePackageDepedencies
+        base: develop
         delete-branch: true
         title: ${{ inputs.commit-message }}
         body: ${{ steps.spm-dep-check.outputs.releaseNotes }}
